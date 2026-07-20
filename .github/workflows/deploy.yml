@@ -33,11 +33,11 @@ jobs:
         run: npm ci
 
       - name: Build static site
-        # For a PROJECT page (https://<user>.github.io/<repo>) the base path
-        # must match the repo name. If you use a custom domain OR a
-        # <user>.github.io repo, delete the NEXT_PUBLIC_BASE_PATH line below.
-        env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+        # This site is served from the custom domain www.axiyana.com at the
+        # ROOT path, so no basePath is set. If you ever drop the custom domain
+        # and serve from https://<user>.github.io/<repo> instead, re-add:
+        #   env:
+        #     NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
         run: npm run build
 
       - name: Upload artifact

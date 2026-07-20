@@ -8,8 +8,8 @@ export const siteConfig = {
   tagline: 'Innovating Tomorrow, Delivering Today.',
   description:
     'Axiyana Technology Solutions develops innovative software products and custom software solutions that help businesses grow, automate, and succeed in a digital world.',
-  // Used for absolute URLs in metadata. Update if you later add a custom domain.
-  url: 'https://mayurajyts.github.io/company-sample-website',
+  // Used for absolute URLs in metadata. Custom domain served at the root.
+  url: 'https://www.axiyana.com',
   email: 'info.axiyana@gmail.com',
   phone: '+94 70 660 0448',
   location: 'Colombo, Sri Lanka',

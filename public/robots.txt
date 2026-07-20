@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mayurajyts.github.io/company-sample-website/sitemap.xml
+Sitemap: https://www.axiyana.com/sitemap.xml
