@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mayurajyts.github.io/company-sample-website/sitemap.xml
